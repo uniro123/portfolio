@@ -66,3 +66,43 @@
 .text span1{
 color: red;
 }
+.social{
+	display: flex;
+    
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  green;
+	border-radius: 50%;
+	margin: 380px 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.2);
+	transition: .4s;
+}
+
+.card{
+	height: 500px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 40px;
+	margin: 50px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+h5{
+	color: #ff6600;
+    font-family: sans-serif;
+    font-weight: arial;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
