@@ -17,9 +17,21 @@
     display: flex;
     justify-content: right;
     align-items: right;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.10);
 }
-
+.contents h1{
+    margin: 0.5%;
+    margin-right: 33%;
+    font-size: 1.8rem;
+    font-family: arial;
+    font-weight: 900;
+}
+.contents span{
+    color: rgb(8, 8, 8);
+}
+.contents span1{
+    color: rgb(0, 109, 24);
+}
 .contents ul{
     display: flex;
     list-style: none;
@@ -34,7 +46,7 @@
 }
 
 .contents ul li a{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     text-decoration: none;
     color: green;
@@ -61,10 +73,10 @@
     bottom: 45%;
 }
 .text span{
-    color: green;
+    color: rgba(55, 235, 0, 0.747);
 }
 .text span1{
-color: red;
+color: rgba(55, 235, 0, 0.747);
 }
 @keyframes slideInLeft{
     from {
@@ -182,9 +194,6 @@ img{
 h2.phone{
     margin-left: -5%;
 }
-p.phone{
-    margin-right: 20%;
-}
 h2.email{
     margin-left: -6%;
 }
@@ -263,6 +272,9 @@ img{
     margin-left: -5%;
     font-family: monospace;
 }
+p.address{
+    margin-right: 15%;
+}
 #media1 i{
     width: 35px;
     height: 35px;
@@ -282,13 +294,16 @@ h2.phone{
     margin-left: -5%;
 }
 p.phone{
-    margin-right: 20%;
+    margin-right: 35%;
 }
 h2.email{
     margin-left: -6%;
 }
 p.email{
     margin-right: 14%;
+}
+p.email1{
+    margin-right: 11%;
 }
 
 h5{
