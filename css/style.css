@@ -64,13 +64,32 @@
     font-weight: bold;
     font-style: italic;
 }
+h1.text1{
+    font-family: arial;
+    font-size: 6rem;
+    position: absolute;
+    margin: 12%;
+    margin-left: 33%;
+    color: rgb(85, 84, 84);
+    border-right: 3px solid;
+    width: 39%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1s steps(40), cursor .1s step-end infinite alternate;        
+}
+@keyframes cursor {
+    50% { border-color: transparent}
+}
+@keyframes typing{
+    from { width: 0 }
+}
 
 .text h1{
    
     font-size: 35px;
     color:white;
     position: absolute;
-    bottom: 45%;
+    bottom: 35%;
 }
 .text span{
     color: rgba(55, 235, 0, 0.747);
@@ -78,6 +97,7 @@
 .text span1{
 color: rgba(55, 235, 0, 0.747);
 }
+/* CONTACT US */
 @keyframes slideInLeft{
     from {
         transform: translateX(-650px);
@@ -221,7 +241,7 @@ h5{
 	justify-content: center;
 	background:  green;
 	border-radius: 50%;
-	margin: -10px 20px;
+	margin: -10px 145px;
 	color: white;
 	text-decoration: none;
 	font-size: 20px;
