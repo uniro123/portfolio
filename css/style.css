@@ -78,7 +78,7 @@ color: red;
 	justify-content: center;
 	background:  green;
 	border-radius: 50%;
-	margin: -140px 30px;
+	margin: -10px 30px;
 	color: white;
 	text-decoration: none;
 	font-size: 20px;
@@ -108,8 +108,8 @@ img{
 #media h4{
     color: white;
     font-family: monospace;
-    font-size: 30px;
-    margin: 150px 30px;
+    font-size: 25px;
+    margin: 15px 30px;
     
 }
 #media h3{
@@ -141,6 +141,22 @@ img{
     font-size: 15px;
     margin-right: 100%;
 }
+#media i.fa-solid fa-envelope{
+    margin: -10%;
+}
+h2.phone{
+    margin-left: -5%;
+}
+p.phone{
+    margin-right: 20%;
+}
+h2.email{
+    margin-left: -6%;
+}
+p.email{
+    margin-right: 14%;
+}
+
 h5{
 	color: white;
     font-family: sans-serif;
