@@ -1,5 +1,5 @@
 *{
-    background-color: gray;
+    background-color: rgb(190, 189, 189);
     font-family: monospace;
 }
 .contentss{
@@ -21,12 +21,13 @@
 }
 
 .contentss ul li a{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: bold;
     text-decoration: none;
     color: green;
-    padding: 5px 20px;
+    padding: 1px -1px;
     transition: all .3s ease;
+    
 }
 
 .contentss ul li a:hover{
