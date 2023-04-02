@@ -309,9 +309,13 @@ color: rgba(55, 235, 0, 0.747);
     font-family: monospace;
     margin: 2%;
 }
-.design img{
+.brain img{
     position: relative;
-    
+    width: 240px;
+    height: 200px;
+    margin: 50%;
+    margin-top: -80%;
+    margin-left: 74%;
 }
 /* CONTACT US */
 @keyframes slideInLeft{
