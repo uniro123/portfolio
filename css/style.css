@@ -444,24 +444,28 @@ color: rgba(55, 235, 0, 0.747);
     left: 7.3%;
     top: 425%;
     font-size: 0.9rem;
+    font-family: arial;
 }
 .profile #qualify2{
     position: absolute;
     left: 7.3%;
     top: 440%;
     font-size: 0.9rem;
+    font-family: arial;
 }
 .profile #qualify3{
     position: absolute;
     left: 7.3%;
     top: 455%;
     font-size: 0.9rem;
+    font-family: arial;
 }
 .profile #qualify4{
     position: absolute;
     left: 7.3%;
     top: 470%;
     font-size: 0.9rem;
+    font-family: arial;
 }
 .profile .character{
     position: absolute;
@@ -483,22 +487,30 @@ color: rgba(55, 235, 0, 0.747);
 .profile #name1{
     position: absolute;
     left: 55%;
-    top: 405%;
+    top: 407%;
+    font-family: arial;
+    font-size: 1.1rem;
 }
 .profile #department{
     position: absolute;
     left: 55%;
     top: 425%;
+    font-family: arial;
+    font-size: 0.9rem;
 }
 .profile #position{
     position: absolute;
     left: 55%;
     top: 440%;
+    font-family: arial;
+    font-size: 0.9rem;
 }
 .profile #contact{
     position: absolute;
     left: 55%;
     top: 455%;
+    font-family: arial;
+    font-size: 0.9rem;
 }
 /* Activities */
 .card2{
