@@ -387,8 +387,8 @@ color: rgba(55, 235, 0, 0.747);
 .profile .rewards{
     position: absolute;
     font-size: 1.4rem;
-    left: 60%;
-    top: 200%;
+    left: 65%;
+    top: 220%;
     color: rgb(0, 133, 18);
 }
 .profile .linear3{
@@ -398,29 +398,107 @@ color: rgba(55, 235, 0, 0.747);
     color: rgb(0, 133, 18);
     background-color: rgb(0, 133, 18);
     border-style: none;
-    left: 60%;
-    top: 220%;
+    left: 65%;
+    top: 240%;
 }
 .profile #award1{
     position: absolute;
-    left: 62.3%;
-    top: 225%;
+    left: 67.3%;
+    top: 245%;
     font-family: arial;
     font-size: 0.9rem;
 }
 .profile #award2{
     position: absolute;
-    left: 62.3%;
-    top: 235%;
+    left: 67.3%;
+    top: 260%;
     font-family: arial;
     font-size: 0.9rem;
 }
 .profile #award3{
     position: absolute;
-    left: 62.3%;
-    top: 245%;
+    left: 67.3%;
+    top: 275%;
     font-family: arial;
     font-size: 0.9rem;
+}
+.profile .qualify{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 5%;
+    top: 400%;
+    color: rgb(0, 133, 18);
+}
+.profile .linear4{
+    position: absolute;
+    height: 2px;
+    width: 172px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 5%;
+    top: 420%;
+}
+.profile #qualify1{
+    position: absolute;
+    left: 7.3%;
+    top: 425%;
+    font-size: 0.9rem;
+}
+.profile #qualify2{
+    position: absolute;
+    left: 7.3%;
+    top: 440%;
+    font-size: 0.9rem;
+}
+.profile #qualify3{
+    position: absolute;
+    left: 7.3%;
+    top: 455%;
+    font-size: 0.9rem;
+}
+.profile #qualify4{
+    position: absolute;
+    left: 7.3%;
+    top: 470%;
+    font-size: 0.9rem;
+}
+.profile .character{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 55%;
+    top: 380%;
+    color: rgb(0, 133, 18);
+}
+.profile .linear5{
+    position: absolute;
+    height: 2px;
+    width: 245px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 55%;
+    top: 400%;
+}
+.profile #name1{
+    position: absolute;
+    left: 55%;
+    top: 405%;
+}
+.profile #department{
+    position: absolute;
+    left: 55%;
+    top: 425%;
+}
+.profile #position{
+    position: absolute;
+    left: 55%;
+    top: 440%;
+}
+.profile #contact{
+    position: absolute;
+    left: 55%;
+    top: 455%;
 }
 /* Activities */
 .card2{
