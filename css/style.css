@@ -287,6 +287,11 @@ color: rgba(55, 235, 0, 0.747);
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+    animation: slidedown 1s ease;
+}
+@keyframes slidedown{
+    0%{ transform: translateY(550px); }
+    100% { transform: translateY(0);}
 }
 .card3 img{
     height: 300px;
