@@ -200,7 +200,7 @@ color: rgba(55, 235, 0, 0.747);
     margin: -25%;
     margin-left: -5%;
 }
-.profile .info{
+.profile .about{
     position: absolute;
     font-size: 1.4rem;
     left: 40%;
@@ -209,13 +209,37 @@ color: rgba(55, 235, 0, 0.747);
 }
 .profile .linear{
     position: absolute;
-    height: 4px;
-    width: 250px;
+    height: 2px;
+    width: 100px;
     color: rgb(0, 133, 18);
     background-color: rgb(0, 133, 18);
     border-style: none;
-    left: 50%;
-    top: 130%;
+    left: 40%;
+    top: 131%;
+}
+.profile .aboutme{
+    position: absolute;
+    top: 135%;
+    left: 40%;
+    font-size: 0.9rem;
+    font-family: arial;
+}
+.profile .contact{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 5%;
+    top: 150%;
+    color: rgb(0, 133, 18);
+}
+.profile .linear1{
+    position: absolute;
+    height: 2px;
+    width: 124px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 5%;
+    top: 171%;
 }
 /* Activities */
 .card2{
