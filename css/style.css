@@ -170,7 +170,13 @@ color: rgba(55, 235, 0, 0.747);
     top: 6%;
     left: 3%;
     background: #d4d4d4;
+    box-shadow: 2px 2px 13px 2px rgb(0, 133, 7);
     margin: 1%;
+    animation: slidedown 1s ease;
+}
+@keyframes slidedown{
+    0%{ transform: translateY(550px); }
+    100% { transform: translateY(0);}
 }
 .box .header{
     position: relative;
@@ -520,10 +526,16 @@ color: rgba(55, 235, 0, 0.747);
     width: 100%;
     max-width: 650px;
     min-height: 800px;
-    left: 52.2%;
+    left: 51.8%;
     top: -76.7%;
     background: #d4d4d4;
+    box-shadow: 2px 2px 13px 2px rgb(0, 0, 0);
     margin: 1%;
+    animation: slidedown 1s ease;
+}
+@keyframes slidedown{
+    0%{ transform: translateY(550px); }
+    100% { transform: translateY(0);}
 }
 .box1 .header1{
     position: relative;
