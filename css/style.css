@@ -316,10 +316,73 @@ color: rgba(55, 235, 0, 0.747);
 }
 .profile #school{
     position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 25%;
+    top: 287%;
+}
+.profile #place{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 25%;
+    top: 298%;
+}
+.profile #year1{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 5%;
+    top: 320%;
+}
+.profile #level1{
+    position: absolute;
     font-size: 0.7rem;
     font-family: arial;
     left: 5%;
-    top: 298%;
+    top: 330%;
+}
+.profile #school1{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 25%;
+    top: 320%;
+}
+.profile #place1{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 25%;
+    top: 330%;
+}
+.profile #year2{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 5%;
+    top: 353%;
+}
+.profile #level2{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 5%;
+    top: 363%;
+}
+.profile #school2{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 25%;
+    top: 353%;
+}
+.profile #place2{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 25%;
+    top: 363%;
 }
 /* Activities */
 .card2{
