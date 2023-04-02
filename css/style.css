@@ -162,6 +162,61 @@ color: rgba(55, 235, 0, 0.747);
     font-weight: bold;
     font-style: italic;
 }
+.box{
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+    min-height: 800px;
+    background: #d4d4d4;
+    margin: 1%;
+}
+.box .header{
+    position: relative;
+    background: rgb(0, 133, 18);
+    padding: 65px;
+}
+.profile .name{
+    position: absolute;
+    font-size: 2.9rem;
+    font-family: monospace;
+    color: white;
+    left: 40%;
+    top: 20%;
+   
+}
+.profile h4{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 10;
+    left: 40%;
+    top: 50%;
+    color: white;
+    
+}
+.profile .picture{
+    position: relative;
+    width: 170px;
+    height: 180px;
+    margin: -25%;
+    margin-left: -5%;
+}
+.profile .info{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 40%;
+    top: 110%;
+    color: rgb(0, 133, 18);
+}
+.profile .linear{
+    position: absolute;
+    height: 4px;
+    width: 250px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 50%;
+    top: 130%;
+}
 /* Activities */
 .card2{
 	height: 95px;
