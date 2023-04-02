@@ -167,6 +167,8 @@ color: rgba(55, 235, 0, 0.747);
     width: 100%;
     max-width: 650px;
     min-height: 800px;
+    top: 6%;
+    left: 3%;
     background: #d4d4d4;
     margin: 1%;
 }
@@ -506,6 +508,359 @@ color: rgba(55, 235, 0, 0.747);
     font-size: 0.9rem;
 }
 .profile #contact{
+    position: absolute;
+    left: 55%;
+    top: 455%;
+    font-family: arial;
+    font-size: 0.9rem;
+}
+/* Keinji's Resume */
+.box1{
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+    min-height: 800px;
+    left: 52.2%;
+    top: -76.7%;
+    background: #d4d4d4;
+    margin: 1%;
+}
+.box1 .header1{
+    position: relative;
+    background: rgb(0, 0, 0);
+    padding: 65px;
+}
+.profile1 .name1{
+    position: absolute;
+    font-size: 2.9rem;
+    font-family: monospace;
+    color: white;
+    left: 40%;
+    top: 20%;
+   
+}
+.profile1 h4{
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 10;
+    left: 40%;
+    top: 50%;
+    color: white;
+    
+}
+.profile1 .picture2{
+    position: relative;
+    width: 170px;
+    height: 180px;
+    margin: -25%;
+    margin-left: -5%;
+}
+.profile1 .about1{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 60%;
+    top: 110%;
+    color: rgb(0, 133, 18);
+}
+.profile1 .linear6{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 60%;
+    top: 131%;
+}
+.profile1 .aboutme1{
+    position: absolute;
+    top: 135%;
+    left: 60%;
+    font-size: 0.9rem;
+    font-family: arial;
+}
+.profile1 .contact1{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 5%;
+    top: 150%;
+    color: rgb(0, 133, 18);
+}
+.profile1 .linear7{
+    position: absolute;
+    height: 2px;
+    width: 124px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 5%;
+    top: 171%;
+}
+.profile1 #email1{
+    position: absolute;
+    top: 174%;
+    left: 5%;
+    font-size: 20px;
+    color: rgb(0, 133, 18);
+}
+.profile1 #fill3{
+    position: absolute;
+    font-family: arial;
+    font-size: 0.9rem;
+    top: 175%;
+    left: 9%;
+}
+.profile1 #phone1{
+    position: absolute;
+    top: 193%;
+    left: 5%;
+    font-size: 20px;
+    color: rgb(0, 133, 18);
+}
+.profile1 #fill4{
+    position: absolute;
+    font-family: arial;
+    font-size: 0.9rem;
+    top: 195%;
+    left: 9%;
+}
+.profile1 #address1{
+    position: absolute;
+    top: 213%;
+    left: 5%;
+    font-size: 20px;
+    color: rgb(0, 133, 18);
+}
+.profile1 #fill5{
+    position: absolute;
+    font-family: arial;
+    font-size: 0.9rem;
+    top: 215%;
+    left: 9%;
+}
+.profile1 .education1{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 5%;
+    top: 260%;
+    color: rgb(0, 133, 18);
+}
+.profile1 .linear8{
+    position: absolute;
+    height: 2px;
+    width: 272px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 5%;
+    top: 280%;
+}
+.profile1 #year1{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 5%;
+    top: 287%;
+}
+.profile1 #level1{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 5%;
+    top: 298%;
+}
+.profile1 #school1{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 25%;
+    top: 287%;
+}
+.profile1 #place1{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 25%;
+    top: 298%;
+}
+.profile1 #year2{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 5%;
+    top: 320%;
+}
+.profile1 #level2{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 5%;
+    top: 330%;
+}
+.profile1 #school2{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 25%;
+    top: 320%;
+}
+.profile1 #place2{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 25%;
+    top: 330%;
+}
+.profile1 #year3{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 5%;
+    top: 353%;
+}
+.profile1 #level3{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 5%;
+    top: 363%;
+}
+.profile1 #school3{
+    position: absolute;
+    font-size: 0.9rem;
+    font-family: arial;
+    left: 25%;
+    top: 353%;
+}
+.profile1 #place3{
+    position: absolute;
+    font-size: 0.7rem;
+    font-family: arial;
+    left: 25%;
+    top: 363%;
+}
+.profile1 .rewards1{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 65%;
+    top: 220%;
+    color: rgb(0, 133, 18);
+}
+.profile1 .linear9{
+    position: absolute;
+    height: 2px;
+    width: 147px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 65%;
+    top: 240%;
+}
+.profile1 #award4{
+    position: absolute;
+    left: 67.3%;
+    top: 245%;
+    font-family: arial;
+    font-size: 0.9rem;
+}
+.profile1 #award5{
+    position: absolute;
+    left: 67.3%;
+    top: 260%;
+    font-family: arial;
+    font-size: 0.9rem;
+}
+.profile1 #award6{
+    position: absolute;
+    left: 67.3%;
+    top: 275%;
+    font-family: arial;
+    font-size: 0.9rem;
+}
+.profile1 .qualify1{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 5%;
+    top: 400%;
+    color: rgb(0, 133, 18);
+}
+.profile1 .linear10{
+    position: absolute;
+    height: 2px;
+    width: 172px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 5%;
+    top: 420%;
+}
+.profile1 #qualify5{
+    position: absolute;
+    left: 7.3%;
+    top: 425%;
+    font-size: 0.9rem;
+    font-family: arial;
+}
+.profile1 #qualify6{
+    position: absolute;
+    left: 7.3%;
+    top: 440%;
+    font-size: 0.9rem;
+    font-family: arial;
+}
+.profile1 #qualify7{
+    position: absolute;
+    left: 7.3%;
+    top: 455%;
+    font-size: 0.9rem;
+    font-family: arial;
+}
+.profile1 #qualify8{
+    position: absolute;
+    left: 7.3%;
+    top: 470%;
+    font-size: 0.9rem;
+    font-family: arial;
+}
+.profile1 .character1{
+    position: absolute;
+    font-size: 1.4rem;
+    left: 55%;
+    top: 380%;
+    color: rgb(0, 133, 18);
+}
+.profile1 .linear11{
+    position: absolute;
+    height: 2px;
+    width: 245px;
+    color: rgb(0, 133, 18);
+    background-color: rgb(0, 133, 18);
+    border-style: none;
+    left: 55%;
+    top: 400%;
+}
+.profile1 #name2{
+    position: absolute;
+    left: 55%;
+    top: 407%;
+    font-family: arial;
+    font-size: 1.1rem;
+}
+.profile1 #department1{
+    position: absolute;
+    left: 55%;
+    top: 425%;
+    font-family: arial;
+    font-size: 0.9rem;
+}
+.profile1 #position1{
+    position: absolute;
+    left: 55%;
+    top: 440%;
+    font-family: arial;
+    font-size: 0.9rem;
+}
+.profile1 #contact1{
     position: absolute;
     left: 55%;
     top: 455%;
