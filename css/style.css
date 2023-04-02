@@ -162,6 +162,60 @@ color: rgba(55, 235, 0, 0.747);
     font-weight: bold;
     font-style: italic;
 }
+/* Activities */
+.card2{
+	height: 95px;
+	width: 300px;
+	padding: 20px 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px 1px rgb(182, 181, 181);
+	border-radius: 40px;
+	margin: 35px 200px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+@keyframes slideInLeft{
+    from {
+        transform: translateX(-650px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.card2 {
+    animation-name: slideInLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+.card2 ul{
+    list-style: none;
+}
+.card2 ul li{
+    font-size: 2rem;
+    font-weight: 790;
+    font-family: arial;
+    margin: 5%;
+}
+.card2 ul li a{
+    text-decoration: none;
+    color: rgb(0, 173, 0);
+}
+.card2 ul li:hover{
+	transform: scale(1.2);
+	transition: .6s;
+}
+.card2 h1{
+    color: white;
+    font-size: 1.3rem;
+    margin: -5%;
+}
+
 /* CONTACT US */
 @keyframes slideInLeft{
     from {
