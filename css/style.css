@@ -183,6 +183,31 @@ color: rgba(55, 235, 0, 0.747);
     background: rgb(0, 133, 18);
     padding: 65px;
 }
+.box .leftside{
+    position: absolute;
+    padding: 2.5px;
+    height: 630px;
+    background: rgb(0, 133, 18);
+    left: 0%;
+    top: 98%;
+}
+.box .rightside{
+    position: absolute;
+    padding: 2.5px;
+    height: 630px;
+    background: rgb(0, 133, 18);
+    top: 0%;
+    right: -12900%;
+}
+.box .footer{
+    position: absolute;
+    background: black;
+    width: 624px;
+    padding: 13px;
+    background: rgb(0, 133, 18);
+    top: 534%;
+    left: 0%;
+}
 .profile .name{
     position: absolute;
     font-size: 2.9rem;
@@ -885,7 +910,7 @@ color: rgba(55, 235, 0, 0.747);
 	width: 300px;
 	padding: 20px 35px;
     background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 10px 10px 10px 1px rgb(182, 181, 181);
+    box-shadow: 2px 2px 13px 2px rgb(0, 133, 7);
 	border-radius: 40px;
 	margin: 100px 200px;
 	position: relative;
@@ -938,7 +963,7 @@ color: rgba(55, 235, 0, 0.747);
 	width: 300px;
 	padding: 20px 35px;
     background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 10px 10px 10px 1px rgb(182, 181, 181);
+    box-shadow: 2px 2px 13px 2px rgb(0, 133, 7);
 	border-radius: 40px;
 	margin: -235px 820px;
 	position: relative;
@@ -991,7 +1016,7 @@ color: rgba(55, 235, 0, 0.747);
 	width: 300px;
 	padding: 20px 35px;
     background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 10px 10px 10px 1px rgb(182, 181, 181);
+    box-shadow: 2px 2px 13px 2px rgb(0, 133, 7);
 	border-radius: 40px;
 	margin: 350px 500px;
 	position: relative;
@@ -1133,41 +1158,6 @@ color: rgba(55, 235, 0, 0.747);
     margin-left: 74%;
 }
 /* CONTACT US */
-@keyframes slideInLeft{
-    from {
-        transform: translateX(-600px);
-    }
-
-    to {
-        transform: translateX(0);
-    }
-}
-
-.card {
-    animation-name: slideInLeft;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-}
-@keyframes slideInRight{
-    from {
-        transform: translateX(600px);
-    }
-
-    to {
-        transform: translateX(0);
-    }
-}
-.card1 {
-    animation-name: slideInRight;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-}
 .social{
 	display: flex;
     
@@ -1195,6 +1185,7 @@ color: rgba(55, 235, 0, 0.747);
 	width: 335px;
 	padding: 20px 35px;
     background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 13px 2px rgb(0, 133, 7);
 	border-radius: 40px;
 	margin: 35px 200px;
 	position: relative;
@@ -1262,7 +1253,24 @@ h5{
 	font-size: 40px;
 	margin-bottom: 15px;
 }
+@keyframes slideInLeft{
+    from {
+        transform: translateX(-600px);
+    }
 
+    to {
+        transform: translateX(0);
+    }
+}
+
+.card {
+    animation-name: slideInLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
 /* Keinji's Contact */
 .social1{
 	display: flex;
@@ -1291,11 +1299,29 @@ h5{
 	width: 335px;
 	padding: 20px 35px;
     background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 13px 2px rgb(0, 133, 7);
 	border-radius: 40px;
 	margin: -568px 780px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+}
+@keyframes slideInRight{
+    from {
+        transform: translateX(600px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+.card1 {
+    animation-name: slideInRight;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
 }
 img{
     height: 150px;
