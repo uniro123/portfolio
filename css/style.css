@@ -57,7 +57,10 @@
 .contents ul li a:hover{
     color: yellowgreen;
 }
-
+.contents ul li.active a{
+    color: yellowgreen;
+    
+}
 .text{
     text-align: center;
     margin-left: 25%;
@@ -155,7 +158,9 @@ color: rgba(55, 235, 0, 0.747);
 .contents1 ul li a:hover{
     color: yellowgreen;
 }
-
+.contents1 ul li.active a{
+    color: yellowgreen;
+}
 .text{
     text-align: center;
     margin-left: 25%;
@@ -554,7 +559,7 @@ color: rgba(55, 235, 0, 0.747);
     left: 49.8%;
     top: -91.7%;
     background: #d4d4d4;
-    box-shadow: 5px 5px 13px 5px rgb(44, 44, 44);
+    box-shadow: 5px 5px 15px 5px rgb(44, 44, 44);
     margin: 1%;
     animation: slidedown 1s ease;
 }
@@ -1142,7 +1147,9 @@ color: rgba(55, 235, 0, 0.747);
 .contents2 ul li a:hover{
     color: yellowgreen;
 }
-
+.contents2 ul li.active a{
+    color: yellowgreen;
+}
 .text{
     text-align: center;
     margin-left: 25%;
