@@ -567,6 +567,30 @@ color: rgba(55, 235, 0, 0.747);
     background: rgb(0, 0, 0);
     padding: 65px;
 }
+.box1 .leftside1{
+    position: absolute;
+    padding: 2.5px;
+    height: 630px;
+    background: black;
+    left: 0%;
+    top: 98%;
+}
+.box1 .rightside1{
+    position: absolute;
+    padding: 2.5px;
+    height: 630px;
+    background: black;
+    top: 0%;
+    right: -12900%;
+}
+.box1 .footer1{
+    position: absolute;
+    width: 624px;
+    padding: 13px;
+    background: black;
+    top: 534%;
+    left: 0%;
+}
 .profile1 .name1{
     position: absolute;
     font-size: 2.9rem;
