@@ -554,7 +554,7 @@ color: rgba(55, 235, 0, 0.747);
     left: 49.8%;
     top: -91.7%;
     background: #d4d4d4;
-    box-shadow: 5px 5px 13px 5px rgb(0, 0, 0);
+    box-shadow: 5px 5px 13px 5px rgb(44, 44, 44);
     margin: 1%;
     animation: slidedown 1s ease;
 }
@@ -564,14 +564,14 @@ color: rgba(55, 235, 0, 0.747);
 }
 .box1 .header1{
     position: relative;
-    background: rgb(0, 0, 0);
+    background: rgb(44, 44, 44);
     padding: 65px;
 }
 .box1 .leftside1{
     position: absolute;
     padding: 2.5px;
     height: 630px;
-    background: black;
+    background: rgb(44, 44, 44);
     left: 0%;
     top: 98%;
 }
@@ -579,7 +579,7 @@ color: rgba(55, 235, 0, 0.747);
     position: absolute;
     padding: 2.5px;
     height: 630px;
-    background: black;
+    background: rgb(44, 44, 44);
     top: 0%;
     right: -12900%;
 }
@@ -587,7 +587,7 @@ color: rgba(55, 235, 0, 0.747);
     position: absolute;
     width: 624px;
     padding: 13px;
-    background: black;
+    background: rgb(44, 44, 44);
     top: 534%;
     left: 0%;
 }
@@ -621,14 +621,14 @@ color: rgba(55, 235, 0, 0.747);
     font-size: 1.4rem;
     left: 60%;
     top: 110%;
-    color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
 }
 .profile1 .linear6{
     position: absolute;
     height: 2px;
     width: 100px;
-    color: rgb(0, 133, 18);
-    background-color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
+    background-color: rgb(44, 44, 44);
     border-style: none;
     left: 60%;
     top: 131%;
@@ -645,14 +645,14 @@ color: rgba(55, 235, 0, 0.747);
     font-size: 1.4rem;
     left: 5%;
     top: 150%;
-    color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
 }
 .profile1 .linear7{
     position: absolute;
     height: 2px;
     width: 124px;
-    color: rgb(0, 133, 18);
-    background-color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
+    background-color: rgb(44, 44, 44);
     border-style: none;
     left: 5%;
     top: 171%;
@@ -662,7 +662,7 @@ color: rgba(55, 235, 0, 0.747);
     top: 174%;
     left: 5%;
     font-size: 20px;
-    color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
 }
 .profile1 #fill3{
     position: absolute;
@@ -676,7 +676,7 @@ color: rgba(55, 235, 0, 0.747);
     top: 193%;
     left: 5%;
     font-size: 20px;
-    color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
 }
 .profile1 #fill4{
     position: absolute;
@@ -690,7 +690,7 @@ color: rgba(55, 235, 0, 0.747);
     top: 213%;
     left: 5%;
     font-size: 20px;
-    color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
 }
 .profile1 #fill5{
     position: absolute;
@@ -704,14 +704,14 @@ color: rgba(55, 235, 0, 0.747);
     font-size: 1.4rem;
     left: 5%;
     top: 260%;
-    color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
 }
 .profile1 .linear8{
     position: absolute;
     height: 2px;
     width: 272px;
-    color: rgb(0, 133, 18);
-    background-color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
+    background-color: rgb(44, 44, 44);
     border-style: none;
     left: 5%;
     top: 280%;
@@ -805,14 +805,14 @@ color: rgba(55, 235, 0, 0.747);
     font-size: 1.4rem;
     left: 65%;
     top: 220%;
-    color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
 }
 .profile1 .linear9{
     position: absolute;
     height: 2px;
     width: 147px;
-    color: rgb(0, 133, 18);
-    background-color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
+    background-color: rgb(44, 44, 44);
     border-style: none;
     left: 65%;
     top: 240%;
@@ -838,19 +838,26 @@ color: rgba(55, 235, 0, 0.747);
     font-family: arial;
     font-size: 0.9rem;
 }
+.profile1 #award7{
+    position: absolute;
+    left: 67.3%;
+    top: 290%;
+    font-family: arial;
+    font-size: 0.9rem;
+}
 .profile1 .qualify1{
     position: absolute;
     font-size: 1.4rem;
     left: 5%;
     top: 400%;
-    color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
 }
 .profile1 .linear10{
     position: absolute;
     height: 2px;
     width: 172px;
-    color: rgb(0, 133, 18);
-    background-color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
+    background-color: rgb(44, 44, 44);
     border-style: none;
     left: 5%;
     top: 420%;
@@ -883,19 +890,26 @@ color: rgba(55, 235, 0, 0.747);
     font-size: 0.9rem;
     font-family: arial;
 }
+.profile1 #qualify9{
+    position: absolute;
+    left: 7.3%;
+    top: 485%;
+    font-size: 0.9rem;
+    font-family: arial;
+}
 .profile1 .character1{
     position: absolute;
     font-size: 1.4rem;
     left: 55%;
     top: 380%;
-    color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
 }
 .profile1 .linear11{
     position: absolute;
     height: 2px;
     width: 245px;
-    color: rgb(0, 133, 18);
-    background-color: rgb(0, 133, 18);
+    color: rgb(44, 44, 44);
+    background-color: rgb(44, 44, 44);
     border-style: none;
     left: 55%;
     top: 400%;
